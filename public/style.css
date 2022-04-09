@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(17, 17, 17) !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.splineAnimation {
+  height: 70vh;
+}
+
+.splineHeroHeaderText {
+  position: absolute;
+  clear: both;
+  width: 100%;
+  padding: 30%;
+  padding-top: 7%;
+  /* pointer-events: none;  -- uncomment to turn on hover on the bubbles in spline animation*/
+  z-index: 2;
+}
+
+.contentContainer {
+  margin-top: 15% !important;
+}
+
+.aStyle,
+.aStyle:hover {
+  color: white;
+  text-decoration: none;
+}
