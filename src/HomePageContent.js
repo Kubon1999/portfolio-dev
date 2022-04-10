@@ -1,6 +1,6 @@
 import ContactMe from "./ContactMe";
 import Hero from "./Hero";
-import { Stack, Text } from "@mantine/core";
+import { Stack, Text, Divider } from "@mantine/core";
 import ProjectCard from "./ProjectCard";
 import Resources from "./Resources";
 import ProjectsList from "./ProjectsList";
@@ -13,16 +13,17 @@ const HomePageContent = () => {
         <ProjectsList />
         <ContactMe />
         <Resources />
+
         <Text
           id="my-projects"
           size="xl"
           color="#6d6d6d"
           align="center"
           weight={250}
-          className="contentContainer"
+          className="contentContainer footerContent"
         >
-          This site(MVP) is still under construction. Improvements will be done
-          in the future.
+          <Divider my="sm" />
+          Jakub Wolodzko 2022
         </Text>
       </Stack>
     </div>

@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { Text, Grid } from "@mantine/core";
+import { Text, Grid, Space } from "@mantine/core";
 import { useState, useEffect } from "react";
 
 const ProjectsList = () => {
@@ -23,9 +23,11 @@ const ProjectsList = () => {
         color="white"
         align="center"
         weight={250}
+        margin="20px"
       >
         MY PROJECTS
       </Text>
+      <Space h="xl" />
       <Grid gutter="xl" justify="center">
         {!projects.length ? (
           <h1>No projects found</h1>
