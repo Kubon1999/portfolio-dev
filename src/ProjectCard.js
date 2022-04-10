@@ -45,17 +45,21 @@ const ProjectCard = (props) => {
         <Text size="sm" style={{ color: secondaryColor, lineHeight: 1.5 }}>
           {description}
         </Text>
-
-        <Button
-          variant="light"
-          color="green"
-          fullWidth
-          style={{ marginTop: 14 }}
+        <a
+          color="white"
+          href={linkToProject}
+          className="aStyle"
+          target="_blank"
         >
-          <a color="white" href={linkToProject} className="aStyle">
+          <Button
+            variant="light"
+            color="green"
+            fullWidth
+            style={{ marginTop: 14 }}
+          >
             {linkToProjectText}
-          </a>
-        </Button>
+          </Button>
+        </a>
       </Card>
     </div>
   );

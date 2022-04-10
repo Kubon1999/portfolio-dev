@@ -29,10 +29,15 @@ code {
 
 .contentContainer {
   margin-top: 15% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
 }
 
 .aStyle,
 .aStyle:hover {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
 }

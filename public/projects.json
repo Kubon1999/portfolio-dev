@@ -1,0 +1,123 @@
+[
+  {
+    "imageSrcPath": "./img/todo.png",
+    "altTextImg": "to do list",
+    "title": "To Do List",
+    "description": "My very first react project - made it after i read 300 pages of Fullstack React by Anthony Accomazzo",
+    "badgeText": "React",
+    "badgeColor": "blue",
+    "linkToProject": "https://kubon1999.github.io/to-do-list-app/",
+    "linkToProjectText": "Try it out!"
+  },
+  {
+    "imageSrcPath": "./img/homepage.png",
+    "altTextImg": "This website",
+    "title": "This website",
+    "description": "My second project that I made in React, using bootstrap and mantine for styling, firebase for database and hosting.",
+    "badgeText": "React",
+    "badgeColor": "blue",
+    "linkToProject": "https://github.com/Kubon1999/portfolio-dev",
+    "linkToProjectText": "Github repository"
+  },
+  {
+    "imageSrcPath": "./img/first_website.png",
+    "altTextImg": "first_website",
+    "title": "My first 'bigger' website",
+    "description": "Coded with use of html, css, js, jquery. Made on 1st semester of my studies for course named 'HiH'.",
+    "badgeText": "html",
+    "badgeColor": "orange",
+    "linkToProject": "https://kubon1999.github.io/first-website/index.html",
+    "linkToProjectText": "Visit page"
+  },
+  {
+    "imageSrcPath": "./img/lamply.png",
+    "altTextImg": "lamply prestashop",
+    "title": "Lamply",
+    "description": "An e-commerce shop we made in group of 4 for business classes.",
+    "badgeText": "Prestashop",
+    "badgeColor": "pink",
+    "linkToProject": "https://github.com/Demiu/EB_Assignment",
+    "linkToProjectText": "Github repository"
+  },
+  {
+    "imageSrcPath": "./img/cloth_simulation.png",
+    "altTextImg": "cloth simulation",
+    "title": "Realtime Cloth Simulation",
+    "description": "Based on my ragdoll physics project i made earlier. Implemented using verlet integration.",
+    "badgeText": "Python",
+    "badgeColor": "yellow",
+    "linkToProject": "https://github.com/Kubon1999/Realtime-Cloth-Simulation",
+    "linkToProjectText": "Github repository"
+  },
+  {
+    "imageSrcPath": "./img/ragdoll_physics.png",
+    "altTextImg": "Ragdoll physics",
+    "title": "Ragdoll physics",
+    "description": "Implemented using verlet integration in my free time.",
+    "badgeText": "Python",
+    "badgeColor": "yellow",
+    "linkToProject": "https://github.com/Kubon1999/Ragdoll-physics",
+    "linkToProjectText": "Github repository"
+  },
+
+  {
+    "imageSrcPath": "./img/openpgp.png",
+    "altTextImg": "openpgp image",
+    "title": "Encrypting Emails with OpenPGP and Mailvelope",
+    "description": "Made it in groups of 2 for Cybersecurity course. It uses the basics of Public-key cryptography.",
+    "badgeText": "Cybersecurity",
+    "badgeColor": "red",
+    "linkToProject": "https://www.youtube.com/watch?v=jOEN86hfm8s&ab_channel=KubaWo%C5%82od%C5%BAko",
+    "linkToProjectText": "Youtube video"
+  },
+  {
+    "imageSrcPath": "./img/genetic_alg.png",
+    "altTextImg": "A Comparison of Genetic Algorithm, Particle Swarm Optimization",
+    "title": "A Comparison of Genetic Algorithm and Particle Swarm Optimization",
+    "description": "Comparasion made for Artifical Intelligence course on my studies. Shows the advantages and disadvantages of both algorythms. ",
+    "badgeText": "MATLAB",
+    "badgeColor": "orange",
+    "linkToProject": "https://github.com/Kubon1999/genetic_algorithm_vs_pso",
+    "linkToProjectText": "Github repository"
+  },
+  {
+    "imageSrcPath": "./img/macd.png",
+    "altTextImg": "macd",
+    "title": "MACD Indicator Analysis using real BITCOIN data",
+    "description": "With given data about bitcoin price changes I calculated the MACD indicator and came to some conclusions... more in the report below.",
+    "badgeText": "Matlab",
+    "badgeColor": "orange",
+    "linkToProject": "./macd.pdf",
+    "linkToProjectText": "Show report"
+  },
+  {
+    "imageSrcPath": "./img/lazik.png",
+    "altTextImg": "lazik",
+    "title": "Map of ionizing radiation created using different interpolation methods",
+    "description": "The task was to create a map showing the level of ionizing radiation, using data collected(small number of points) with a rover. Therefore, an appropriate interpolation method had to be used to create an accurate map.",
+    "badgeText": "Matlab",
+    "badgeColor": "orange",
+    "linkToProject": "https://github.com/Kubon1999/interpolation",
+    "linkToProjectText": "Github repository"
+  },
+  {
+    "imageSrcPath": "./img/internet_without_ads.png",
+    "altTextImg": "internet without ads photo",
+    "title": "What would the internet look like without advertising",
+    "description": "Report made for the business course during studies.",
+    "badgeText": "Doc",
+    "badgeColor": "blue",
+    "linkToProject": "./internet_without_ads.pdf",
+    "linkToProjectText": "Show report"
+  },
+  {
+    "imageSrcPath": "./img/shoe_race_go.png",
+    "altTextImg": "shoeracego",
+    "title": "ShoeRace GO!",
+    "description": "My first Mobile App that i published on Google Play in 2020. It is advanced in terms of monitoring the users activity in different sections of the app and sending the data to the sever. Had support for the in-app purchases which included: removing the ads or buying gems. Now it is unfortunately unavailable on the grounds that i have not updated its terms of condition.",
+    "badgeText": "Unity",
+    "badgeColor": "gray",
+    "linkToProject": "/",
+    "linkToProjectText": "No content yet"
+  }
+]
