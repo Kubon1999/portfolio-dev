@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 const PageNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="sm" collapseOnSelect>
+    <Navbar bg="dark" variant="dark" expand="sm" fixed="top" collapseOnSelect>
       <Container>
         <Navbar.Brand href="/">Jakub Wolodzko</Navbar.Brand>
 
