@@ -1,7 +1,7 @@
 import { Text, Title, Center } from "@mantine/core";
 
 const HeroFront = () => {
-  const frontText = `Junior Front-End Engineer`;
+  const frontText = `Computer Science Student`;
   const frontText2 = `Always optimistic and hassle-free computer science student that likes to work in international environment.`;
   const frontText3 = `When I encounter a problem I always try to look for a solution rather than a culprit.`;
 

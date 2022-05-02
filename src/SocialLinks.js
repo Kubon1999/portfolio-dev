@@ -24,7 +24,7 @@ const SocialLinks = () => {
             text="Instagram"
             logo={<BrandInstagram />}
             bgColor="#4262ff"
-            linkTo="https://www.instagram.com/hansu_anders/"
+            linkTo="https://www.instagram.com/hansu_dev/"
           />
         </Grid.Col>
         <Grid.Col span={2}>
@@ -40,7 +40,7 @@ const SocialLinks = () => {
             text="TikTok"
             logo={<BrandTiktok />}
             bgColor="#fe2c55"
-            linkTo="https://www.tiktok.com/@hansu_anders?lang=pl-PL"
+            linkTo="https://www.tiktok.com/@hansu_official"
           />
         </Grid.Col>
       </Grid>
