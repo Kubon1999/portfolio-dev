@@ -1,5 +1,15 @@
 [
   {
+    "imageSrcPath": "./img/empty-time-app.png",
+    "altTextImg": "Empty Time App",
+    "title": "Empty Time App",
+    "description": "App build in React, it is easly scalable, the whole site depends on one json file(questions.json) that has the quizzes names, questions and answers. Then the site creates from it the navbar links + main menu buttons to all the quizzes, and quizes itself.",
+    "badgeText": "React",
+    "badgeColor": "blue",
+    "linkToProject": "https://kubon1999.github.io/empty-moment-app/",
+    "linkToProjectText": "Try it out!"
+  },
+  {
     "imageSrcPath": "./img/todo.png",
     "altTextImg": "to do list",
     "title": "To Do List",
