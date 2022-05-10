@@ -19,14 +19,14 @@ const SocialLinks = () => {
             linkTo="https://www.youtube.com/channel/UCoSN5_vypjiJ8leuabiWLyg"
           />
         </Grid.Col>
-        <Grid.Col span={2}>
+        {/* <Grid.Col span={2}>
           <SocialButton
             text="Instagram"
             logo={<BrandInstagram />}
             bgColor="#4262ff"
             linkTo="https://www.instagram.com/hansu_dev/"
           />
-        </Grid.Col>
+        </Grid.Col> */}
         <Grid.Col span={2}>
           <SocialButton
             text="GitHub"
@@ -35,14 +35,14 @@ const SocialLinks = () => {
             linkTo="https://github.com/Kubon1999"
           />
         </Grid.Col>
-        <Grid.Col span={2}>
+        {/* <Grid.Col span={2}>
           <SocialButton
             text="TikTok"
             logo={<BrandTiktok />}
             bgColor="#fe2c55"
             linkTo="https://www.tiktok.com/@hansu_official"
           />
-        </Grid.Col>
+        </Grid.Col> */}
       </Grid>
     </Center>
   );

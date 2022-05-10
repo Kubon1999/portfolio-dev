@@ -1,4 +1,14 @@
 [
+    {
+    "imageSrcPath": "./img/movie-rate-now.png",
+    "altTextImg": "Movie Rate Now",
+    "title": "Movie Rate Now",
+    "description": "This site shows my current skills, it contains a huge list of movies and tv shows that are fetched from themoviedb.org API. It is responsive, made it in react where I used a lot of its concepts like context, hooks, portals, and router. It is hosted on Firebase.",
+    "badgeText": "React",
+    "badgeColor": "blue",
+    "linkToProject": "https://movie-rate-now.web.app/",
+    "linkToProjectText": "Try it out!"
+  },
   {
     "imageSrcPath": "./img/empty-time-app.png",
     "altTextImg": "Empty Time App",
