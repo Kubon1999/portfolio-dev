@@ -4,6 +4,7 @@ import {
   BrandGithub,
   BrandTiktok,
   BrandYoutube,
+  ArrowRight,
 } from "tabler-icons-react";
 import SocialButton from "./SocialButton";
 
@@ -19,14 +20,14 @@ const SocialLinks = () => {
             linkTo="https://www.youtube.com/channel/UCoSN5_vypjiJ8leuabiWLyg"
           />
         </Grid.Col>
-        {/* <Grid.Col span={2}>
+        <Grid.Col span={2}>
           <SocialButton
-            text="Instagram"
-            logo={<BrandInstagram />}
-            bgColor="#4262ff"
-            linkTo="https://www.instagram.com/hansu_dev/"
+            text="Upwork"
+            logo={<ArrowRight />}
+            bgColor="#32CD32"
+            linkTo="https://www.upwork.com/freelancers/~013ba56f49e968330f"
           />
-        </Grid.Col> */}
+        </Grid.Col>
         <Grid.Col span={2}>
           <SocialButton
             text="GitHub"

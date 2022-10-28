@@ -1,18 +1,18 @@
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/firestore';
-import 'firebase/compat/auth';
-import  { useAuthState }  from 'react-firebase-hooks/auth';
-import { useCollectionData } from 'react-firebase-hooks/firestore';
-import { getFirestore } from 'firebase/firestore';
+import firebase from "firebase/compat/app";
+import "firebase/compat/firestore";
+import "firebase/compat/auth";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useCollectionData } from "react-firebase-hooks/firestore";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseApp = firebase.initializeApp({
-  piKey: "AIzaSyBndXQ5Qd1v-5o6OudHnQiAGPf0RwEVN34",
-  authDomain: "hansu-dev.firebaseapp.com",
-  projectId: "hansu-dev",
-  storageBucket: "hansu-dev.appspot.com",
-  messagingSenderId: "691784364087",
-  appId: "1:691784364087:web:d717ffedc158670e02cfb2",
-  measurementId: "G-83TFJBF4SB"
+  apiKey: "AIzaSyDeOkNrBv-PeL7pLWf7_6sNMhMBCsJt2us",
+  authDomain: "kuba-w.firebaseapp.com",
+  projectId: "kuba-w",
+  storageBucket: "kuba-w.appspot.com",
+  messagingSenderId: "688099478725",
+  appId: "1:688099478725:web:a9bf69bd35a6fa7a7d74ac",
+  measurementId: "G-N7TBWJGFXB",
 });
 
 export default getFirestore();
