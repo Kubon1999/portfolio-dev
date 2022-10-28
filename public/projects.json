@@ -1,9 +1,20 @@
 [
+
+  {
+    "imageSrcPath": "./img/mrbeast-website.png",
+    "altTextImg": "MrBeast prototype website",
+    "title": "MrBeast",
+    "description": "An example of a website design I would do for MrBeast. It is only a template the links on the website do not work.",
+    "badgeText": "React",
+    "badgeColor": "blue",
+    "linkToProject": "https://kubon1999.github.io/mrbeast-website/",
+    "linkToProjectText": "Visit page"
+  },
     {
     "imageSrcPath": "./img/movie-rate-now.png",
     "altTextImg": "Movie Rate Now",
     "title": "Movie Rate Now",
-    "description": "This site shows my current skills, it contains a huge list of movies and tv shows that are fetched from themoviedb.org API. It is responsive, made it in react where I used a lot of its concepts like context, hooks, portals, and router. It is hosted on Firebase.",
+    "description": "It contains a huge list of movies and tv shows that are fetched from themoviedb.org API. It is responsive, made it in react where I used a lot of its concepts like context, hooks, portals, and router. It is hosted on Firebase.",
     "badgeText": "React",
     "badgeColor": "blue",
     "linkToProject": "https://movie-rate-now.web.app/",

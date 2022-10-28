@@ -4,7 +4,7 @@ const PageNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="sm" fixed="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="/">Jakub Wolodzko</Navbar.Brand>
+        <Navbar.Brand href="/">Kuba Wolodzko</Navbar.Brand>
 
         <Navbar.Toggle />
         <Navbar.Collapse>

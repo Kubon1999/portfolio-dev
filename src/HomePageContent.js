@@ -23,7 +23,7 @@ const HomePageContent = () => {
           className="contentContainer footerContent"
         >
           <Divider my="sm" />
-          Jakub Wolodzko 2022
+          Kuba Wolodzko 2022
         </Text>
       </Stack>
     </div>

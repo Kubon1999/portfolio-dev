@@ -32,9 +32,9 @@ const ProjectsList = () => {
         {!projects.length ? (
           <h1>No projects found</h1>
         ) : (
-          projects.map((project) => {
+          projects.map((project, index) => {
             return (
-              <Grid.Col sm={12} md={6} lg={4}>
+              <Grid.Col sm={12} md={6} lg={4} key={index}>
                 <ProjectCard
                   key={project.linkToProject}
                   imageSrcPath={project.imageSrcPath}
