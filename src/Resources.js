@@ -18,7 +18,7 @@ import { Navigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { Check } from "tabler-icons-react";
 
-const Resources = (props) => {
+const Resources = ({ text, resource_id, id }) => {
   const [redirect, setRedirect] = useState(false);
   const [formApproved, setFormApproved] = useState(false);
   const form = useForm({
@@ -44,15 +44,11 @@ const Resources = (props) => {
     setTimeout(() => setRedirect(true), 3000);
   };
   if (redirect) {
-    return (
-      <meta
-        http-equiv="refresh"
-        content="0; url = ./9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d.pdf"
-      />
-    );
+    let path_to_resource = `0; url = ./${resource_id}.pdf`;
+    return <meta http-equiv="refresh" content={path_to_resource} />;
   } else {
     return (
-      <div className="contentContainer" id="resources">
+      <div className="contentContainer" id={id}>
         <Text
           id="my-projects"
           size="xl"
@@ -60,13 +56,9 @@ const Resources = (props) => {
           align="center"
           weight={250}
           className="contentContainer"
+          margin="md"
         >
-          RESOURCES
-        </Text>
-        <Text size="xl" color="white" weight={250}>
-          <Center>
-            Get my notes with 85 questions & answers about React for FREE
-          </Center>
+          {text}
         </Text>
         <Box sx={{ maxWidth: 300 }} mx="auto">
           <form onSubmit={handleSubmit}>
@@ -98,9 +90,7 @@ const Resources = (props) => {
                 disallowClose
               >
                 You will be redirected to the materials in 3 seconds. If not{" "}
-                <a href="/9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d.pdf">
-                  Click here
-                </a>
+                <a href={`./${resource_id}.pdf`}>Click here</a>
               </Notification>
             ) : (
               "*Your data will be stored on my server"

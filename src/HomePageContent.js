@@ -12,7 +12,16 @@ const HomePageContent = () => {
         <Hero />
         <ProjectsList />
         <ContactMe />
-        <Resources />
+        <Resources
+          id="react-questions"
+          text={"Get my notes with 85 questions & answers about React for FREE"}
+          resource_id={"9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d"}
+        ></Resources>
+        <Resources
+          id="server-setup"
+          text={"Get Server Setup & Connection Cheatsheet for FREE"}
+          resource_id={"9b1deb4d-347d-4bad-9b4d-2b0d7b3dcb6d"}
+        ></Resources>
 
         <Text
           id="my-projects"

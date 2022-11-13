@@ -12,7 +12,6 @@ const PageNavbar = () => {
             <Nav.Link href="#my-projects">My Projects</Nav.Link>
             <Nav.Link href="/cv.pdf">CV</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#resources">Resources</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
